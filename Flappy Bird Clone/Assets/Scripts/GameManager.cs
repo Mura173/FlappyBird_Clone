@@ -21,6 +21,6 @@ public class GameManager : MonoBehaviour
 
     public void Jogar()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

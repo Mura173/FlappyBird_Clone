@@ -35,13 +35,12 @@ public class Bird : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Cano"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
 
         if (other.gameObject.CompareTag("Chegada"))
         {
-            Debug.Log("Encostando");
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
     }
 }
