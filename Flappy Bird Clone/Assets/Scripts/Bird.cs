@@ -7,6 +7,8 @@ public class Bird : MonoBehaviour
 {
     Rigidbody2D rb;
 
+    GameObject startPos;
+
     // Variáveis Públicas
     public float speed;
     public float jumpForce;
@@ -14,13 +16,16 @@ public class Bird : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        startPos = GameObject.Find("StartPos");
+
+        rb.transform.position = startPos.transform.position;
     }
 
     void FixedUpdate()
     {
-        transform.Translate(speed, 0, 0);
+        this.transform.Translate(speed, 0, 0);
 
-        if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump") || Input.GetMouseButton(0) )
         {
             rb.AddForce(transform.up * jumpForce, ForceMode2D.Force);
         }
@@ -31,6 +36,12 @@ public class Bird : MonoBehaviour
         if (other.gameObject.CompareTag("Cano"))
         {
             SceneManager.LoadScene(0);
+        }
+
+        if (other.gameObject.CompareTag("Chegada"))
+        {
+            Debug.Log("Encostando");
+            SceneManager.LoadScene(1);
         }
     }
 }

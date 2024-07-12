@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Cano
+  - Colliders
+  - Chegada
   layers:
   - Default
   - TransparentFX

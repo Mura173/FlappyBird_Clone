@@ -5,23 +5,33 @@ using UnityEngine;
 public class GameMechanic : MonoBehaviour
 {
     GameObject backGround;
-    GameObject bird;
     Camera cam;
+
+    // Colliders
+    GameObject colliderBaixo;
+    GameObject colliderCima;
 
     public float speed;
 
     void Start()
     {
         backGround = GameObject.Find("BackGround");
-        bird = GameObject.Find("Bird");
         cam = Camera.main;
-    }
 
+        colliderBaixo = GameObject.Find("ColliderBaixo");
+        colliderCima = GameObject.Find("ColliderCima");
+    }
     
     void FixedUpdate()
     {
-        backGround.transform.Translate(speed, 0, 0);
-        bird.transform.Translate(speed, 0, 0);
-        cam.transform.Translate(speed, 0, 0);
+        Movimento();
+    }
+
+    void Movimento()
+    {
+            backGround.transform.Translate(speed, 0, 0);
+            cam.transform.Translate(speed, 0, 0);
+            colliderBaixo.transform.Translate(speed, 0, 0);
+            colliderCima.transform.Translate(speed, 0, 0);
     }
 }
