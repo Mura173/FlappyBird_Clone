@@ -37,10 +37,5 @@ public class Bird : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
-
-        if (other.gameObject.CompareTag("Chegada"))
-        {
-            SceneManager.LoadScene(0);
-        }
     }
 }
