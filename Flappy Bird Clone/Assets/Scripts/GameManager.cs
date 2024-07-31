@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    Button play;
+    public int score;
+    public Text scoreText;
 
     void Start()
     {
-        play = GetComponent<Button>();
+        Time.timeScale = 1;
     }
 
     
@@ -20,6 +21,11 @@ public class GameManager : MonoBehaviour
     }
 
     public void Jogar()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void RestartGame()
     {
         SceneManager.LoadScene(1);
     }
