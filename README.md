@@ -9,18 +9,3 @@
 <div align=center>
   Um simples clone de Flappy Bird feito por mim, utilizando sprites já prontos na Internet
 </div>
-
-<hr width="100%" size="2">
-<h2> Como Baixar? </h2>
-
-<ul> 
-  <li>
-    <h3>PC:</h3>
-    A adicionar
-  </li>
-  <li>
-    <h3>Android:</h3>
-
-  <a href="FB_Android/Flappy_Bird_Clone_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/Flappy_Bird_Clone.apk">Vá até aqui </a> e clique em "Download File"
-  </li>
-</ul>
