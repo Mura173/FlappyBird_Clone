@@ -9,3 +9,29 @@
 <div align=center>
   Um simples clone de Flappy Bird feito por mim, utilizando sprites já prontos na Internet
 </div>
+
+<hr>
+<div>
+  <h2>
+    Como Baixar:
+  </h2>
+</div>
+<div>
+  <ul>
+    <li><h3>PC:</h3></li>
+    Vá até <a href="https://github.com/Mura173/FlappyBird_Clone/releases">Releases</a>.
+    <br>
+    Baixe o arquivo compactado "Flappy_Bird.rar".
+    <br>
+    Substitua os arquivos já existentes na Unity.
+  </ul>
+</div>
+<div>
+  <ul>
+    <li><h3>ANDROID:</h3></li>
+    Vá até <a href="https://github.com/Mura173/FlappyBird_Clone/releases">Releases</a>.
+    <br>
+    Baixe o arquivo "Flappy_Bird_Clone.apk".
+  </ul>
+</div>
+  
