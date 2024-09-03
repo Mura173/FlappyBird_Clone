@@ -21,9 +21,9 @@
     <li><h3>PC:</h3></li>
     Vá até <a href="https://github.com/Mura173/FlappyBird_Clone/releases">Releases</a>.
     <br>
-    Baixe o arquivo compactado "Flappy_Bird.rar".
+    Baixe o arquivo compactado "FlappyBird_Clone.rar".
     <br>
-    Substitua os arquivos já existentes na Unity.
+    Descompacte-o e abra o arquivo executável (.exe).
   </ul>
 </div>
 <div>
